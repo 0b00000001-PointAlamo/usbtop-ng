@@ -1,0 +1,65 @@
+# Rust
+/target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+ng-usbtop.log*
+
+# Config files (except examples)
+config.toml
+*.toml
+!example-config.toml
+
+# Build artifacts
+dist/
+build/
+debian/ng-usbtop/
+*.deb
+*.rpm
+*.pkg
+
+# Documentation builds
+book/
+docs/_build/
+
+# Test artifacts
+coverage/
+.coverage
+*.profraw
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Editor artifacts
+.#*
+\#*#
+
+# Local development
+.env
+.env.local
+
+# Packaging
+*.tar.gz
+*.zip
+*.dmg
